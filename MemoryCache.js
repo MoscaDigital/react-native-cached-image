@@ -1,5 +1,5 @@
-// import React, {Component} from 'react';
-import { AsyncStorage, Platform } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Platform } from 'react-native';
 
 const PREFIX = 'react-native-cacher:values:';
 const DEFAULT_EXPIRES = 999999;
